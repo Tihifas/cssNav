@@ -1,0 +1,65 @@
+/* Styles for the page header */
+
+header.page-header {
+    height: 20rem;
+    border-bottom: 4px solid #1d1d1d;
+}
+
+header.page-header .container {
+    padding: 1rem;
+    position: relative;
+}
+
+header.page-header h1 {
+    margin: 0;
+    font-size: 6rem;
+    padding-top: 3rem;
+}
+
+header.page-header p {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* TODO: header.page-header .register */
+    header.page-header .register {
+        display: block;
+        position: absolute;
+        height: 10rem;
+        width: 16rem;
+        right: 3.5rem;
+        top: 2rem;
+        padding-top: 6rem;
+        /*Position at top right of its container?*/
+
+        text-transform: uppercase;
+        font-size: 2.7rem;
+        color: white;
+        text-shadow: 1px 2px 0 black;
+        text-align: center;
+        text-decoration: none;
+
+        background: linear-gradient(#a80000, #740404);
+        border-radius: 100px;
+        transform: rotate(6deg);
+    }
+
+        /* TODO: header.page-header .register:hover */
+        header.page-header .register:hover {
+                background: linear-gradient(#bc0101, #8c0909);
+        }
+
+        /*TODO: header.page-header .register:before*/ 
+        header.page-header .register:before {
+            content: "";
+            border-radius: 100px;
+            border: dotted 3px #740404;
+
+            height: 16.8rem;
+            width: 16.8rem;
+
+        }
+
+header.page-header .register .free {
+    font-size: 80%;
+}
